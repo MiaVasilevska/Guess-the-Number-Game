@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess the Number Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Guess the Number Game</h1>
+
+    <div id="game-container" class="two-column-container">
+      <div class="column">
+        <h2 for="player1-name">Player 1</h2>
+        <p>Name:</p>
+        <input type="text" id="player1-name" required>
+        <p>Age:</p>
+        <input type="text" id="player1-age" required>
+        <p>Occupation:</p>
+        <input type="text" id="player1-occupation" required>
+        <p>Country:</p>
+        <input type="text" id="player1-country" required>
+      </div>
+      
+      <div class="column">
+        <h2 for="player2-name">Player 2</h2>
+        <p>Name:</p>
+        <input type="text" id="player2-name" required>
+        <p>Age:</p>
+        <input type="text" id="player2-age" required>
+        <p>Occupation:</p>
+        <input type="text" id="player2-occupation" required>
+        <p>Country:</p>
+        <input type="text" id="player2-country" required>
+      </div>
+    </div>
+    <button onclick="startGame()">Start Game</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
